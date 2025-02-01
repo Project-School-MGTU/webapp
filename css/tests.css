@@ -6,11 +6,11 @@
     height: 100px;
     width: 100vw;
 }
-.nav-list a{ 
-    text-decoration: none; 
-    color: #ffffff; 
+.nav-list a{
+    text-decoration: none;
+    color: #ffffff;
     font-size: 48px;
-} 
+}
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -23,6 +23,7 @@
     margin-right: 100px;
     height: 100px;
 }
+
 .nav_block{
     display: flex;
 
@@ -31,8 +32,9 @@
 .nav_block li+li{
     margin-left: 30px;
 }
-.cf{
 
+.cf{
+    margin-left: 145px;
     text-shadow: #ffffff 1px 0 10px;
 }
 a.nav-link{
@@ -48,37 +50,63 @@ a.nav-link{
 a.nav-link:hover{
     color: #9b89eb; 
 }
+
 body{ 
     height: 975px;
     background: radial-gradient(#3b2663, #010105);
 }
 .inf{
-    color: #ffffff;
+    color: rgb(249, 255, 203);
     text-align: center;
     margin-top: 10%;
     font-size: 25px
 }
-img{
-    margin-top: 30px;
-    margin-left: 1300px;
-    border-radius: 100px;
-    height: 150px;
-    width: 150px;
+
+
+.tests{
+    margin-top: 7cqb;
+    display: flex;
+    justify-content: center;
 }
-button{
-    display: block;   
-    position: absolute;
-    border-radius: 10px;
-    font-size: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    top: 180px;
-    margin-left: 1050px;
-            
+
+.tests li{
+    display: flex;
+    flex-direction: column;
+    border: thin solid white; 
+    border-radius: 30px; 
+    width: 250px; 
+    height: 450px; 
+    align-items: center;
+    justify-content: center;
+    
 }
-.button{
-    background-color: #6a44b170
+
+.tests li:first-child p{
+    color: rgb(251, 255, 220);
+    text-align: center;
+    font-size: 25px;
+    background-color: #9b89eb6d;
+    border-radius: 30px;
+    height: 75px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.tests li+li{
+    margin-left: 30px;
+}
+p{
+    color: rgb(251, 255, 220);
+    text-align: center;
+    font-size: 25px;
+    background-color: #9b89eb6d;
+    border-radius: 30px;
+    height: 75px;
+    width: 200px;
+}
+
 ::-webkit-scrollbar { 
     width: 0; 
 } 

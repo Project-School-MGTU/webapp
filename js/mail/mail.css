@@ -1,0 +1,18 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25%;
+}
+.u-section-1 .u-group-1{
+    width: 584px;
+    min-height: fit-content;
+    background-image: none;
+    height: auto;
+}
+.u-section-1 .u-text-1{
+    margin: 85px auto 0;
+}
+.success a{
+
+}

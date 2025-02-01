@@ -1,0 +1,239 @@
+*{ 
+    margin: 0; 
+} 
+.header { 
+    background-color: #030212; 
+    height: 100px; 
+    width: 100vw; 
+
+} 
+
+.nav{
+    height: 100px;
+}
+
+.nav-list a{ 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 48px;
+     
+} 
+.nav-list { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around; 
+    padding-inline-start: 0; 
+    position: relative; 
+    list-style-type: none; 
+    font-size: 20px; 
+    margin-right: 100px; 
+    height: 100px; 
+}     
+.nav_block{
+    display: flex;
+
+}
+
+.nav_block li+li{
+    margin-left: 30px;
+}
+.cf { 
+    margin-left: 30px; 
+    text-shadow: #ffffff 1px 0 10px; 
+} 
+ 
+.gl{ 
+    height: 100px; 
+    width: 99vw; 
+   
+} 
+#img{ 
+    position: relative; 
+    right: 0; 
+    bottom: 0;  
+    width: 100vw; 
+    min-height: 100%; 
+    z-index: 1; 
+    
+} 
+ 
+
+ 
+ 
+::-webkit-scrollbar { 
+    width: 0; 
+} 
+ 
+.video-bg { 
+    height: 100vh; 
+    width: 100%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    position: relative; 
+ 
+} 
+.video-bg video { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover; 
+} 
+.effects { 
+    position: absolute; 
+    object-fit: cover; 
+    top: 0; 
+    left: 0; 
+    z-index: 2; 
+    width: 100%; 
+    height: 100vh; 
+    background-color: rgba(98, 98, 98, 0.044);  
+} 
+.video-bg__content { 
+    z-index: 2; 
+    color: #ffffff; 
+    font-size: 40px; 
+    text-align: center; 
+    margin-top: 15%; 
+} 
+ 
+.video-bg__content button { 
+     
+    margin: 40px auto 60px; 
+    padding: 20px 55px 21px 54px; 
+    background-image: none; 
+    background: transparent;  
+    background-color: transparent;   
+    border: thin solid white; 
+    color: #ffffff; 
+    outline: none; 
+    box-shadow: 0 0 8px #ffffff; 
+    transition: 0.4s; 
+} 
+ 
+.video-bg__content h1{ 
+    text-shadow: #ffffff 1px 0 4px; 
+} 
+ 
+.video-bg__content button:hover { 
+     
+    margin: 40px auto 60px; 
+    padding: 20px 55px 21px 54px; 
+    background-color: #632da057;   
+    border: thin solid #ffffff; 
+    color: #ffffff; 
+    outline: none; 
+    box-shadow: 0 0 8px #ffffff; 
+ 
+} 
+ 
+a.nav-link{ 
+    color: #ffffff;  
+    font-size: 20px;  
+    font-weight: bold; 
+    padding: 20px 0px; 
+    text-transform: uppercase; 
+    line-height: 1; 
+    -webkit-transition: all 0.5s ease; 
+            transition: all 0.5s ease;  
+  } 
+  a.nav-link:hover{ 
+    color: #9b89eb;  
+  } 
+
+.main{
+    background: url(../img/fon2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+span{
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(252, 255, 229);
+    font-size: 40px;
+}
+.form{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #00000083;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.form input{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #9b89eb83;
+    border-radius: 30px;
+    background: #9b89eb83;
+    transition: all 0.2s ease-in;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.form input+input{
+    margin-top: 20px;
+}
+
+.form input::placeholder{
+    color:#9b89eb;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.form input:focus{
+    width: 620px;
+    height: 50px;
+    border: 1px solid #9b89eb83;
+    border-radius: 30px;
+    background: #9b89eb83;
+    outline: none;
+}
+button:focus{
+    margin-top: 20px;
+    background: #966fd7;
+    border-radius: 30px;
+    border: 1px solid #966fd7;
+    width: 600px;
+    height: 50px;
+}
+button{
+    margin-top: 20px;
+    background: #9b89eb;
+    border-radius: 30px;
+    border: 1px solid #9b89eb;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+a{
+    color: #946ed1;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar { 
+    width: 0; 
+} 

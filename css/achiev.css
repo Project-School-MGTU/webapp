@@ -6,11 +6,11 @@
     height: 100px;
     width: 100vw;
 }
-.nav-list a{ 
-    text-decoration: none; 
-    color: #ffffff; 
+.nav-list a{
+    text-decoration: none;
+    color: #ffffff;
     font-size: 48px;
-} 
+}
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -23,6 +23,7 @@
     margin-right: 100px;
     height: 100px;
 }
+
 .nav_block{
     display: flex;
 
@@ -31,8 +32,10 @@
 .nav_block li+li{
     margin-left: 30px;
 }
+
 .cf{
 
+    margin-left: 145px;
     text-shadow: #ffffff 1px 0 10px;
 }
 a.nav-link{
@@ -48,37 +51,53 @@ a.nav-link{
 a.nav-link:hover{
     color: #9b89eb; 
 }
+
 body{ 
     height: 975px;
     background: radial-gradient(#3b2663, #010105);
 }
 .inf{
-    color: #ffffff;
+    color: rgb(249, 255, 203);
     text-align: center;
     margin-top: 10%;
     font-size: 25px
 }
+
 img{
-    margin-top: 30px;
-    margin-left: 1300px;
-    border-radius: 100px;
-    height: 150px;
+    border: thin solid white; 
+    border-radius: 30px; 
+    width: 250px; 
+    height: 450px; 
+}
+
+.achiev{
+    margin-top: 7cqb;
+    display: flex;
+    justify-content: center;
+}
+
+.achiev li:first-child{
+    display: flex;
+    flex-direction: column;
+    border: thin solid white; 
+    border-radius: 30px; 
+    width: 250px; 
+    height: 450px; 
+    align-items: center;
+    justify-content: center;
+}
+.achiev li:first-child button{
     width: 150px;
-}
-button{
-    display: block;   
-    position: absolute;
-    border-radius: 10px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(251, 255, 220);
+    border: rgb(251, 255, 220);
     font-size: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    top: 180px;
-    margin-left: 1050px;
-            
 }
-.button{
-    background-color: #6a44b170
+h2{
+    color: rgb(251, 255, 220);
 }
+
 ::-webkit-scrollbar { 
     width: 0; 
 } 
