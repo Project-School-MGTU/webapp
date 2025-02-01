@@ -1,0 +1,136 @@
+.input__wrapper{
+    align-self: center;
+}
+.okno {
+    background: linear-gradient(70deg, #31195a,#792d9a, #ffffe8);
+    border-radius: 20px;
+    width: 800px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+  }
+   
+  .input__file {
+    
+    opacity: 0; 
+    visibility: hidden;
+    position: absolute;
+    
+  }
+   
+  .input__file-icon-wrapper {
+    
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* border-right: 1px solid #000000; */
+  }
+   
+  .input__file-button-text {
+
+
+    line-height: 1;
+    margin-top: 1px;
+  }
+   
+  .input__file-button {
+    transition: 0.2s;
+    width: 300px;
+    height: 100px;
+    background: #9b89eb00;
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 2px dashed black;
+    padding: 50px;
+  }
+  .input__file-button:hover {
+
+    width: 300px;
+    height: 100px;
+    background: #ffffff90;
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 2px dashed black;
+    padding: 50px;
+  }
+
+  .input_up{
+    text-align: center;
+  }
+  .input_up span:nth-child(3){
+    margin-top: 100px;
+  }
+
+  .input_down{
+    display: flex;
+    align-items: center;
+  }
+  button{
+    transition: 0.2s;
+    width: 200px;
+    height: 50px;
+    margin-top:20px; 
+    margin-left: 100px;
+    border-radius: 10px;
+    background: #9a5cb8;
+    border: none;
+  }
+  button:hover{
+    width: 200px;
+    height: 50px;
+    margin-top:20px; 
+    margin-left: 100px;
+    border-radius: 10px;
+    background: rgb(185, 130, 214);
+    border: none;
+  }
+  .close{
+
+    height: 50px;
+    width: 50px;
+    background: #9a5cb8;
+  }
+ /*  }
+  .close:hover{
+    height: 50px;
+    width: 50px;
+    background: rgb(185, 130, 214);
+
+  } */

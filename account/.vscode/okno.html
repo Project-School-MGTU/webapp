@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/okno.css">
+    <title>okno</title>
+</head>
+<body>
+    <div class="okno">
+        <div class="input__wrapper">
+            <button class="close"></button>
+            <label for="input__file" class="input__file-button">
+                <div class="input_up">
+                    <span>Перетащите ваше изображение</span><br><br>
+                    <span>или</span>
+                </div><br>
+                <div class="input_down">
+                    <span class="input__file-icon-wrapper"><img class="input__file-icon" src="/img/6807768.png" alt="Выбрать файл" width="50px"></span>
+                    <span class="input__file-button-text">Выберите файл</span>
+                    <input name="file" type="file" id="input__file" class="input input__file" multiple>
+                </div>
+            </label>
+            <button>Загрузить</button>
+        </div>
+    </div>
+     <script>
+        let inputs = document.querySelectorAll('.input__file');
+        Array.prototype.forEach.call(inputs, function (input) {
+          let label = input.nextElementSibling,
+            labelVal = label.querySelector('.input__file-button-text').innerText;
+      
+          input.addEventListener('change', function (e) {
+            let countFiles = '';
+            if (this.files && this.files.length >= 1)
+              countFiles = this.files.length;
+      
+            if (countFiles)
+              label.querySelector('.input__file-button-text').innerText = 'Выбрано файлов: ' + countFiles;
+            else
+              label.querySelector('.input__file-button-text').innerText = labelVal;
+          });
+        });
+    </script>
+</body>
+</html>
